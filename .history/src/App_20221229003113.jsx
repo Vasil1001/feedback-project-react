@@ -1,0 +1,23 @@
+import { useState } from 'react'
+import './App.css'
+import FeedbackList from './components/FeedbackList'
+import Header from './components/Header'
+import FeedbackData from './data/FeedbackData'
+
+function App() {
+  const [feedback, setFeedback] = useState(FeedbackData)
+
+  return (
+    <div>
+      <Header />
+      <div className="container">
+        <h1>My app</h1>
+        <FeedbackList feedback={feedback}
+          handleDelete
+        />
+      </div>
+    </div>
+  )
+}
+
+export default App
