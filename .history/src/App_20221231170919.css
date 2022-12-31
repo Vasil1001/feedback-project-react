@@ -103,8 +103,7 @@ header {
 
 [type='radio']:checked ~ label {
   background: #ff6a95;
-  color: #141617;
-  font-weight: bold;
+  color: #fff;
 }
 
 .input-group {
