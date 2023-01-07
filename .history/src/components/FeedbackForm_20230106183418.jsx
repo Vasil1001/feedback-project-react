@@ -10,7 +10,6 @@ export default function FeedbackForm() {
     const [btnDisabled, setBtnDisabled] = useState(true)
     const [message, setMessage] = useState('')
 
-    const {addFeedback} = useContext(FeedbackContext)
 
     const handleTextChange = (e) => {
         if (text === "") {
@@ -33,7 +32,7 @@ export default function FeedbackForm() {
                 text,
                 rating
             }
-            addFeedback(newFeedback);
+            handleAdd(newFeedback);
             setText('')
         }
     }

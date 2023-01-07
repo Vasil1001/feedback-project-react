@@ -17,9 +17,10 @@ function App() {
           <Routes>
             <Route exact path="/" element={
               <>
-                <FeedbackForm />
-                <FeedbackStats />
-                <FeedbackList />
+                <FeedbackForm
+                  handleAdd={addFeedback} />
+                <FeedbackStats/>
+                <FeedbackList/>
                   
               </>
             }>

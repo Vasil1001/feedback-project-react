@@ -33,7 +33,7 @@ export default function FeedbackForm() {
                 text,
                 rating
             }
-            addFeedback(newFeedback);
+            handleAdd(newFeedback);
             setText('')
         }
     }
