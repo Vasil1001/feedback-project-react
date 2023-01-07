@@ -22,9 +22,7 @@ export const FeedbackProvider = ({ children }) => {
             rating: 4
         }
     ])
-    const [feedbackEdit, setFeedbackEdit] = useState({
-        
-    })
+    const [feedbackEdit, setFeedbackEdit] = useState({})
     const editFeedback = (id) => {
 
     }

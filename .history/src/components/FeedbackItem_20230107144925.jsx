@@ -16,7 +16,7 @@ function FeedbackItem({ item }) {
                 <FaTimes color='purple' />
             </button>
             <button className="edit">
-                <FaEdit color='purple' />
+                <FaTimes color='purple' />
 
             </button>
             <div className="text-display">{item.text}</div>
