@@ -4,7 +4,7 @@ import { FaTimes, FaEdit } from 'react-icons/fa'
 import { useContext } from 'react'
 import FeedbackContext from '../context/FeedbackContext'
 
-function FeedbackItem({ item }) {
+function FeedbackItem() {
     const { deleteFeedback, editFeedback } = useContext(FeedbackContext)
 
     return (
@@ -16,7 +16,7 @@ function FeedbackItem({ item }) {
                 <FaTimes color='#2c2e33' />
             </button>
 
-            <button onClick={() => editFeedback(item)}
+            <button onClick={() => editFeedback(item.id)}
                 className="edit" >
                 <FaEdit color='#2c2e33' />
             </button>

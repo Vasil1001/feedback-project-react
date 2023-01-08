@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 import Card from './shared/Card'
 import { FaTimes, FaEdit } from 'react-icons/fa'
 import { useContext } from 'react'
@@ -16,7 +17,7 @@ function FeedbackItem({ item }) {
                 <FaTimes color='#2c2e33' />
             </button>
 
-            <button onClick={() => editFeedback(item)}
+            <button onClick={() => editFeedback(item.id)}
                 className="edit" >
                 <FaEdit color='#2c2e33' />
             </button>

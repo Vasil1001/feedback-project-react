@@ -34,7 +34,7 @@ export const FeedbackProvider = ({ children }) => {
 
     // Set item to edit mode to update it
     const editFeedback = (item) => {
-        setFeedbackEdit({
+        setFeedback({
             item,
             edit: true
         })
@@ -47,13 +47,16 @@ export const FeedbackProvider = ({ children }) => {
         }
     }
 
+   
+
+    
+
     return <FeedbackContext.Provider
         value={{
             feedback,
+            deleteFeedback,
             addFeedback,
             editFeedback,
-            deleteFeedback,
-            feedbackEdit, //piece of state that holds the item
         }}>
         {children}
     </FeedbackContext.Provider>

@@ -46,7 +46,7 @@ export const FeedbackProvider = ({ children }) => {
             setFeedback(feedback.filter((item) => item.id !== id)) //return array without the item we deleted
         }
     }
-
+    
     return <FeedbackContext.Provider
         value={{
             feedback,

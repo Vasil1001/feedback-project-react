@@ -47,13 +47,16 @@ export const FeedbackProvider = ({ children }) => {
         }
     }
 
+   
+
+    
+
     return <FeedbackContext.Provider
         value={{
             feedback,
             addFeedback,
             editFeedback,
             deleteFeedback,
-            feedbackEdit, //piece of state that holds the item
         }}>
         {children}
     </FeedbackContext.Provider>

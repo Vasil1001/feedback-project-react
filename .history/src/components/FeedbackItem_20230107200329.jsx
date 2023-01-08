@@ -16,7 +16,7 @@ function FeedbackItem({ item }) {
                 <FaTimes color='#2c2e33' />
             </button>
 
-            <button onClick={() => editFeedback(item)}
+            <button onClick={() => editFeedback(item.id)}
                 className="edit" >
                 <FaEdit color='#2c2e33' />
             </button>

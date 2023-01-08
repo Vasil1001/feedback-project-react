@@ -55,7 +55,7 @@ export default function FeedbackForm() {
                         onChange={handleTextChange}
                         type="text"
                         placeholder="Write a review"
-                        value={text || ""}
+                        value={text };
                     />
                     <Button type="submit" isDisabled={btnDisabled}>Send</Button>
                 </div>

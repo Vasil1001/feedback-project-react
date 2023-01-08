@@ -6,14 +6,14 @@ import FeedbackContext from '../context/FeedbackContext'
 
 export default function FeedbackForm() {
     const [text, setText] = useState("")
-    const [rating, setRating] = useState(5)
+    const [rating, setRating] = useState(10)
     const [btnDisabled, setBtnDisabled] = useState(true)
     const [message, setMessage] = useState('')
 
     const { addFeedback, feedbackEdit } = useContext(FeedbackContext)
 
     useEffect(() => {
-        if (feedbackEdit.edit === true) {
+        if(feedbackEdit.edit === true) {
             setBtnDisabled(false)
             setText(feedbackEdit.item.text)
             setRating(feedbackEdit.item.rating)
@@ -55,7 +55,7 @@ export default function FeedbackForm() {
                         onChange={handleTextChange}
                         type="text"
                         placeholder="Write a review"
-                        value={text || ""}
+                        value={text}
                     />
                     <Button type="submit" isDisabled={btnDisabled}>Send</Button>
                 </div>

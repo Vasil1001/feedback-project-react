@@ -142,16 +142,15 @@ input:focus {
 .edit {
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 20px;
   font-size: 1rem;
   cursor: pointer;
   background: none;
-  
   border: none;
 }
 
 .edit {
-  right: 32px;
+  right: 40px;
 }
 
 .btn {
