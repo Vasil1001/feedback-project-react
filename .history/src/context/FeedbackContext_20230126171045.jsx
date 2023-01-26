@@ -56,7 +56,7 @@ export const FeedbackProvider = ({ children }) => {
 
     // Update feedback
     const updateFeedback = async (id, updItem) => {
-        const response = await fetch(`https://tropical-brash-sink.glitch.me/feedback/${id}`, {
+        const response = await fetch(`http://localhost:5000/feedback/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',

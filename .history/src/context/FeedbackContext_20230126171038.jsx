@@ -47,7 +47,7 @@ export const FeedbackProvider = ({ children }) => {
     // Delete Feedback
     const deleteFeedback = async (id) => {
         if (window.confirm('Are you sure you want to delete')) {
-            await fetch(`https://tropical-brash-sink.glitch.me/feedback/${id}`, {method: 'DELETE' })
+            await fetch(`http://localhost:5000/feedback/${id}`, {method: 'DELETE' })
 
 
             setFeedback(feedback.filter((item) => item.id !== id)) //return array without the item we deleted
@@ -56,7 +56,7 @@ export const FeedbackProvider = ({ children }) => {
 
     // Update feedback
     const updateFeedback = async (id, updItem) => {
-        const response = await fetch(`https://tropical-brash-sink.glitch.me/feedback/${id}`, {
+        const response = await fetch(`http://localhost:5000/feedback/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
