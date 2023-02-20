@@ -1,4 +1,4 @@
-# Feedback Project
+# Feedback Project - react.js
 A React + Vite + JSON Server app. _Finished_
 
 Project 1 from 'React Front to Back 2022' Udemy course.
