@@ -1,11 +1,13 @@
 # Feedback Project
 A React + Vite + JSON Server app. _Finished_
 
-React app to learn fundamentals of React. This app allows users to add, update and delete feedback as a form of a comment section. It uses a mock REST api with json-server as a 'mock backend' that has been deployed to Glitch.com.
-
 Project 1 from 'React Front to Back 2022' Udemy course.
 
+React app to learn fundamentals of React. This app allows users to add, update and delete feedback as a form of a comment section. It uses a mock REST api with json-server as a 'mock backend' that has been deployed to Glitch.com.
+
 Link to app: [https://feedback-app-reactjs-udemy-1.netlify.app](https://feedback-app-reactjs-udemy-1.netlify.app)
+
+[![React][React.js]][React-url]
 
 This project goes over all of the fundamentals of React including...
 
@@ -19,8 +21,6 @@ Lists & Keys,
 Forms,
 Context API,
 HTTP Requests
-
-[![React][React.js]][React-url]
 
 <!-- TABLE OF CONTENTS -->
 <details>
