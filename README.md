@@ -1,5 +1,5 @@
 # Feedback Project
-A React + Vite + JSON Server app. _Complete_
+A React + Vite + JSON Server app. _Finished_
 
 React app to learn fundamentals of React. This app allows users to add, update and delete feedback as a form of a comment section. It uses a mock REST api with json-server as a 'mock backend' that has been deployed to Glitch.com.
 
