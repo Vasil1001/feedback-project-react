@@ -1,22 +1,23 @@
 # Feedback Project
-Project 1. A React + JSON Server app.
+A React + Vite + JSON Server app. _Complete_
 
-React app learn fundamentals of React. This app allows users to add, update and delete feedback. It uses a mock REST api 
-with json-server that has been deployed to Glitch.com and is part of the "Modern React Front To Back 2022" Udemy course, Project 1.
+React app to learn fundamentals of React. This app allows users to add, update and delete feedback as a form of a comment section. It uses a mock REST api with json-server as a 'mock backend' that has been deployed to Glitch.com.
+
+Project 1 from 'React Front to Back 2022' Udemy course.
 
 Link to app: [https://feedback-app-reactjs-udemy-1.netlify.app](https://feedback-app-reactjs-udemy-1.netlify.app)
 
 This project goes over all of the fundamentals of React including...
 
-Components
-JSX
-Props (proptypes, defaultprops, etc)
-State (Component & App Level)
-Styling
-Handling Events
-Lists & Keys
-Forms
-Context API
+Components,
+JSX,
+Props (proptypes, defaultprops, etc),
+State (Component & App Level),
+Styling,
+Handling Events,
+Lists & Keys,
+Forms,
+Context API,
 HTTP Requests
 
 [![React][React.js]][React-url]
@@ -36,7 +37,6 @@ HTTP Requests
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#general-info">General Info</a></li>
     <li><a href="#app-screenshots">App Screenshots</a></li>
     <li><a href="#setup">Setup</a></li>
     <li><a href="#usage">Usage</a></li>
@@ -46,16 +46,6 @@ HTTP Requests
   </ol>
 </details>
 
-<!-- general-info -->
-## General Info
-- This is a udemy course project to learn fundamentals of React.
-- Users can add, update and delete feedback.
-
-## Learning Outcomes
-- The target learning outcomes are:
-    - Learn fundamentals of React.
-    - Use JSON Server as a mock REST Api.
- 
  <!-- app-screenshots -->
 ## App screenshots
 ![image](https://user-images.githubusercontent.com/78150846/216736055-6fe4bb86-9998-491f-b4dc-620ff0726c02.png)
